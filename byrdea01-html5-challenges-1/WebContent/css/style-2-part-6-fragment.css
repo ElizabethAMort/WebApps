@@ -1,0 +1,42 @@
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+figure.leftAligned {
+	float: left;
+	margin-right: 8px;
+}
+
+figure.rightAligned {
+	float : right;
+	margin-left: 8px;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: 0.8em;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+br {
+	clear: both;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	border: 5px solid black;
+}
+
+p {
+	text-align: justify;
+}
+.left-align {
+	text-align: left;
+}
+
+.right-align {
+	text-align: right;
+}

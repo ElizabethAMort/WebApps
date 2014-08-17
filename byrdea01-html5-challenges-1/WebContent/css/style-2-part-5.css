@@ -1,0 +1,81 @@
+body {
+	width: 1000px;
+}
+
+
+h1 {
+	height: 150px;
+	background-image: url('../images/mars.png');
+	padding-left: 10px;
+	font-size: 1.6em;
+}
+
+.title {
+	background-color: #FF6347;
+	color: rgb(255, 255, 200);
+	padding: 10px;
+	border: 1px solid black;
+	font-size: 1.2em;
+	margin-top: 8px;
+}
+
+#latestNews{
+	display:none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#mainNavigation h2{
+	display:none;
+	margin: 0px;
+	padding: 0px;
+}
+
+section{
+	width: 80%;
+	float: left;
+}
+
+aside{
+	width: 18%;
+	float: right;
+	background-color: #eeeeee;
+}
+
+aside p{
+	padding-left:6px;
+	padding-right:6px;
+	text-align:left;
+}
+
+aside a{
+	padding-left:6px;
+}
+
+aside h3{
+	font-size:1.0em;
+}
+
+#pageFooter p{
+	clear:both;
+	text-align:center;
+	border-top:1px solid #FF6347;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: #FF6347;
+}
+
+li{
+	margin-right:8px;
+	padding-right: 8px;
+	border-right: 2px solid #cccccc;
+	display:inline; 
+}
